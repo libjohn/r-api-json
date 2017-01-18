@@ -77,12 +77,12 @@ oneJSONresult$Awards
 ---
 
 ### Multiple objects in API response
-Note:  The **results of this code-snippet react differently** between the *console*, the *Notebook script* (console), and the *Notebook HTML* output.  In the script-output you can find the object names of the list, in this case dollar-search: `$Search`.  Or, you can use bracket notation: `[[1]]`.  Once you identify the object name, it's easier to identify the vector names within the `$Search` data frame.
+Note:  The **results of this code-snippet react differently** between the *console*, the *Notebook script* (console), and the *Notebook HTML* output.  In the script-output you can find the object names of the list, in this case dollar-search: `$Search`.  Or, you can use bracket notation: `[[1]]`.  Once you identify the object name, it's easier to identify the variable names within the `$Search` data frame.
 
 Below, the structure of the API response for a series search is to have a data.frame with the search results (`$Search`), and two other list components (`$TotalResults`, `$Response`).  We're interested in the results, the `$Search` data.frame.
 ```{r}
-jsonSeriesResutlsList <- fromJSON("http://www.omdbapi.com/?s=rocky&type=series&r=json&page=1")
-jsonSeriesResutlsList
+jsonSeriesResultsList <- fromJSON("http://www.omdbapi.com/?s=rocky&type=series&r=json&page=1")
+jsonSeriesResultsList
 
 ```
 
@@ -90,14 +90,14 @@ jsonSeriesResutlsList
 
 #### Search results of the JSON list as a data frame.
 ```{r}
-jsonSeriesResutlsList$Search
+jsonSeriesResultsList$Search
 ```
 
 --- 
 
 #### Title vector of the Search Data Frame 
 ```{r}
-jsonSeriesResutlsList$Search$Title
+jsonSeriesResultsList$Search$Title
 ```
 
 ---
