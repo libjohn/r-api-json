@@ -10,7 +10,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## R, jsonlite, and APIs
 
 1. [Slides](http://libjohn.github.io/rcs2017/slides/slides.html)
 
