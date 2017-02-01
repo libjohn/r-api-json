@@ -118,7 +118,7 @@ Check with the Library's Office of Copyright and Scholarly Communications
 
 ![Parts of URL](images/URL.PNG)
 
---X
+--
     
 - Client & server negotiate handshake (*dramatization...*)
 
