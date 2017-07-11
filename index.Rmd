@@ -1,6 +1,6 @@
 ---
 title: "Using R to Orchestrate APIs"
-subtitle: "for Research Computing Symposium 2017<br>http://libjohn.github.io/rcs2017/"
+subtitle: "for Research Computing Symposium 2017<br>http://www.johnlittle.info/presentation/r-api/"
 author: "John Little"
 date: "`r Sys.Date()`"
 output: html_document
@@ -12,8 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R, jsonlite, and APIs
 
-1. [Slides](http://libjohn.github.io/rcs2017/slides/slides.html)
-
-1. [Demonstration](http://libjohn.github.io/rcs2017/demonstration.nb.html)
-
-1. [Hands-on](http://libjohn.github.io/rcs2017/handson.nb.html)
+* http://www.johnlittle.info/presentation/r-api/
+    * slides
+    * demonstration
+    * hands-on

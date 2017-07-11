@@ -9,7 +9,7 @@ PART OF: | [Research Data at the Edge](http://library.duke.edu/edge/events/rc17)
 
 ## Presentation Materials...
 
-* http://libjohn.github.io/rcs2017/
+* http://www.johnlittle.info/presentation/r-api/
     * slides
     * demonstration
     * hands-on

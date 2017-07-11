@@ -10,7 +10,7 @@ output:
 
 ### To Follow Along
 
-- Open the Web Page - http://libjohn.github.io/rcs2017/demonstration.nb.html
+- Open the Web Page - http://www.johnlittle.info/project/custom/rcs2017/handson.nb.html
 
 **OR**
 
@@ -104,4 +104,4 @@ jsonSeriesResultsList$Search$Title
 
 ## Next
 
-- [Handson.Rmd](http://libjohn.github.io/rcs2017/handson.nb.html)
+- [Handson.Rmd](http://www.johnlittle.info/project/custom/rcs2017/handson.nb.html)

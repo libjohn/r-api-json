@@ -2,7 +2,7 @@
 title: "Using R to Orchestrate APIs"
 subtitle: "Research Computing Symposium 2017"
 author: "John Little"
-date: "`r Sys.Date()`"
+date: "2017-02-01"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -39,10 +39,11 @@ class: bottom
 
 - Github Repo -- https://github.com/libjohn/r-api-json 
 
-- Web Site -- https://libjohn.github.io/rcs2017/
-    - [Slides](https://libjohn.github.com/rcs2017/slides.html)
-    - [Demonstration](http://libjohn.github.io/rcs2017/demonstration.nb.html)
-    - [Hands-on](http://libjohn.github.io/rcs2017/handson.nb.html)
+- Web Site -- http://www.johnlittle.info/presentation/r-api/
+
+    - slides
+    - demonstration
+    - hands-on
 
 ### Eat Your Own Dogfood
 
@@ -216,7 +217,7 @@ Ever seen HTML before?
 
 - Demonstration
     - using an API to http://omdb.org (OMDB is like IMDB.com)
-    - http://libjohn.github.io/rcs2017
+    - http://www.johnlittle.info/presentation/r-api/
 - Hands-on
     - using An API Of Ice And Fire -- http://anapioficeandfire.com/
 

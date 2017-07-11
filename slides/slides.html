@@ -45,10 +45,11 @@ class: bottom
 
 - Github Repo -- https://github.com/libjohn/r-api-json 
 
-- Web Site -- https://libjohn.github.io/rcs2017/
-    - [Slides](https://libjohn.github.com/rcs2017/slides.html)
-    - [Demonstration](http://libjohn.github.io/rcs2017/demonstration.nb.html)
-    - [Hands-on](http://libjohn.github.io/rcs2017/handson.nb.html)
+- Web Site -- http://www.johnlittle.info/presentation/r-api/
+
+    - slides
+    - demonstration
+    - hands-on
 
 ### Eat Your Own Dogfood
 
@@ -224,7 +225,7 @@ Ever seen HTML before?
 
 - Demonstration
     - using an API to http://omdb.org (OMDB is like IMDB.com)
-    - http://libjohn.github.io/rcs2017
+    - http://www.johnlittle.info/presentation/r-api/
 - Hands-on
     - using An API Of Ice And Fire -- http://anapioficeandfire.com/
 
@@ -275,7 +276,25 @@ Data, presentation, and handouts are shareable under [CC BY-NC-SA license](https
 "highlightStyle": "github",
 "highlightLines": true
 });
-if (window.HTMLWidgets) slideshow.on('showSlide', function (slide) {setTimeout(function() {window.dispatchEvent(new Event('resize'));}, 100)});</script>
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {window.dispatchEvent(new Event('resize'));});</script>
 
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
   </body>
 </html>
